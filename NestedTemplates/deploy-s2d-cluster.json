@@ -4,7 +4,7 @@
   "parameters": {
     "namePrefix": {
       "type": "string",
-      "minLength": 3,
+      "minLength": 2,
       "maxLength": 8,
       "metadata": {
         "description": "Naming prefix for each new resource created. 3-char min, 8-char max, lowercase alphanumeric"
@@ -56,7 +56,7 @@
     "vmCount": {
       "type": "int",
       "minValue": 2,
-      "maxValue": 3,
+      "maxValue": 5,
       "metadata": {
         "description": "Number of S2D VMs to be created in cluster (Min=2, Max=3)"
       }
